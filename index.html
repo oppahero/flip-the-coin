@@ -12,7 +12,48 @@
 
     <link rel="stylesheet" href="styles/piccalilli.css" />
     <link rel="stylesheet" href="styles/index.css" />
-    <script src="js/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="flip-coin">
+        <h1 class="flip-coin__header">Flip the coin</h1>
+        <h2 class="flip-coin__subheader">
+          Press the coin or the button to flip the coin
+        </h2>
+        <div class="coin-container">
+          <div class="coin-container__coin">
+            <div class="side coin__heads">
+              <img src="resources/heads.svg" alt="coin" />
+            </div>
+            <div class="side coin__tails">
+              <img src="resources/tails.svg" alt="coin" />
+            </div>
+          </div>
+        </div>
+        <img
+          class="coin__shadow"
+          src="resources/shadow.svg"
+          alt="coin shadow"
+        />
+        <p class="flip-coin__result">Heads</p>
+        <button class="flip-coin__button">Random</button>
+      </section>
+    </main>
+
+    <!-- <div class="author-info">
+      Coded by <a href="#">María López</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div> -->
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
